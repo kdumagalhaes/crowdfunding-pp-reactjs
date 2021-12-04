@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle `
     // layout
     --mobile: 375px;
     --desktop: 1440px;
-
+    --safe-area-padding: 0 40px 0 40px;
 }
 
 * {
@@ -33,6 +33,10 @@ html {
 body, input, textarea, button {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+}
+
+body {
+    background: var(--black);
 }
 
 button {
