@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
-export const GlobalStyle = createGlobalStyle `
+export const GlobalStyle = createGlobalStyle`
 :root {
     // colors
     --moderate-cyan: hsl(176, 50%, 47%);
@@ -21,6 +21,7 @@ export const GlobalStyle = createGlobalStyle `
 }
 
 html {
+
     @media (max-width: var(---desktop)) {
         font-size: 93.75%;
     }
@@ -31,12 +32,12 @@ html {
 }
 
 body, input, textarea, button {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Commissioner', sans-serif;
     font-weight: 400;
 }
 
 body {
-    background: var(--black);
+    background: #fff;
 }
 
 button {

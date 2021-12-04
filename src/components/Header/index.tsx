@@ -5,6 +5,7 @@ import logoImg from '../../assets/img/logo.svg'
 export const Header = () => {
     return (
         <Container>
+            <div className="gradient"></div>
             <Content>
                 <a href="#">
                     <h1 className="seo-h1">Crowdfunding • This is just for SEO best practices =)</h1>
