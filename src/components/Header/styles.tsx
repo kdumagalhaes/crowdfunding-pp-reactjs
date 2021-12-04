@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 import desktopImgBg from '../../assets/img/image-hero-desktop.jpg'
+import mobileImgBg from '../../assets/img/image-hero-mobile.jpg'
 
 
 export const Container = styled.header`
@@ -13,6 +14,10 @@ export const Container = styled.header`
     width: 100%;
     height: 400px;
     background: url(${desktopImgBg}) no-repeat left top;
+
+    @media screen and (max-width: 600px) {
+        background: url(${mobileImgBg}) no-repeat left top;
+    }
 `
 
 
@@ -47,6 +52,20 @@ export const Navigation = styled.nav`
                 text-decoration: none;
                 font-weight: 500;
             }
+        }
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+        ul {
+            display: none;
+        }
+
+        .hamburger-menu {
+            display: block;
         }
     }
 `

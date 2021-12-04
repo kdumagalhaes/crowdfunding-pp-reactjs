@@ -1,6 +1,7 @@
 import { Container, Content, Navigation } from './styles'
 
 import logoImg from '../../assets/img/logo.svg'
+import hamburgerMenuIcon from '../../assets/img/icon-hamburger.svg'
 
 export const Header = () => {
     return (
@@ -12,6 +13,9 @@ export const Header = () => {
                     <img src={logoImg} alt="crowdfund" />
                 </a>
                 <Navigation>
+                    <a href="#" className="hamburger-menu">
+                        <img src={hamburgerMenuIcon} alt="open menu" />
+                    </a>
                     <ul>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Discover</a></li>
