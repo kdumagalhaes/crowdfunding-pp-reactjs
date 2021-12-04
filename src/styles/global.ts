@@ -43,4 +43,35 @@ body {
 button {
     cursor: pointer;
 }
+
+.react-modal-content {
+    width: 100%;
+    max-width: 85%;
+    margin: 100px auto;
+    background: #fff;
+    position: relative;
+    border-radius: 0.6rem;
+
+    .last-anchor {
+        border: none;
+    }
+
+    ul {
+        li {
+            list-style: none;
+            a {
+                display: block;
+                text-decoration: none;
+                font-size: 1.2rem;
+                color: var(--black);
+                font-weight: 500;
+                padding: 30px 0 30px 20px;
+                border-bottom: 1px solid #eee;
+
+
+            }
+        }
+    }
+}
+
 `

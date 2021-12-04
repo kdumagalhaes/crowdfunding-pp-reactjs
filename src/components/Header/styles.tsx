@@ -5,15 +5,16 @@ import mobileImgBg from '../../assets/img/image-hero-mobile.jpg'
 
 
 export const Container = styled.header`
+    width: 100%;
+    height: 400px;
+    background: url(${desktopImgBg}) no-repeat left top;
+
     .gradient {
         width: 100%;
         height: 150px;
         background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,0.7));
         position: absolute;
     }
-    width: 100%;
-    height: 400px;
-    background: url(${desktopImgBg}) no-repeat left top;
 
     @media screen and (max-width: 600px) {
         background: url(${mobileImgBg}) no-repeat left top;
@@ -57,6 +58,8 @@ export const Navigation = styled.nav`
 
     .hamburger-menu {
         display: none;
+        background: transparent;
+        border: none;
     }
 
     @media screen and (max-width: 600px) {
