@@ -37,7 +37,7 @@ body, input, textarea, button {
 }
 
 body {
-    background: #fff;
+    background: #fafafa;
 }
 
 button {
