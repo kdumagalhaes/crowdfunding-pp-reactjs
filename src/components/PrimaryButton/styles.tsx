@@ -13,4 +13,8 @@ export const Button = styled.button `
     &:hover {
         background: var(--dark-cyan);
     }
+
+    @media screen and (max-width: 600px) {
+        padding: 13px 33px;
+    }
 `
