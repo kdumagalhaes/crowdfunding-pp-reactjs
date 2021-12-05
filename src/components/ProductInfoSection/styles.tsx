@@ -57,4 +57,26 @@ export const Content = styled.section`
           padding: 0 30px 0 20px;
         }
     }
+
+    @media screen and (max-width: 600px) {
+        padding: 20px;
+
+        .product-name {
+            font-size: 1.2rem;
+            margin-top: 25px;
+        }
+
+        .product-summary {
+            font-size: 0.75rem;
+            line-height: 21px;
+        }
+
+        .btn-bookmark {
+            background: transparent;
+
+            p{
+                display: none;
+            }
+        }
+    }
 `
