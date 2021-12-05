@@ -3,6 +3,10 @@ import styled from 'styled-components'
 import desktopImgBg from '../../assets/img/image-hero-desktop.jpg'
 import mobileImgBg from '../../assets/img/image-hero-mobile.jpg'
 
+interface NavigationProps {
+    display: string
+}
+
 
 export const Container = styled.header`
     width: 100%;
@@ -30,6 +34,7 @@ export const Content = styled.div`
     display: flex;
     justify-content: space-between;
     position: relative;
+    z-index: 2;
 
     .seo-h1 {
         font-size: 1px;
@@ -56,10 +61,14 @@ export const Navigation = styled.nav`
         }
     }
 
-    .hamburger-menu {
-        display: none;
+    .hamburger-menu, 
+    .close-modal-button {
         background: transparent;
         border: none;
+    }
+
+    .hamburger-menu {
+        display: none;
     }
 
     @media screen and (max-width: 600px) {

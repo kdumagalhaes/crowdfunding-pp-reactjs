@@ -51,6 +51,7 @@ button {
     background: #fff;
     position: relative;
     border-radius: 0.6rem;
+    z-index: 2;
 
     .last-anchor {
         border: none;
@@ -72,6 +73,15 @@ button {
             }
         }
     }
+}
+
+.react-modal-overlay {
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,0.7));
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 `
