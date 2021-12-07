@@ -26,4 +26,17 @@ export const Content = styled.section`
         color: var(--dark-gray);
         line-height: 1.9rem;
     }
+
+    @media screen and (max-width: 600px) {
+        padding: 25px;
+
+        .title {
+            font-size: 1.06rem;
+        }
+
+        .paragraph {
+            font-size: 0.77rem;
+            line-height: 1.5rem;
+        }
+    }
 `
