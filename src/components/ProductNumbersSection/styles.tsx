@@ -58,4 +58,28 @@ export const Content = styled.section`
         }
     }
 
+    @media screen and (max-width: 600px) {
+        padding: 25px;
+
+        .flex-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .number {
+            padding: 25px 0;
+            border-right: 0;
+            border-bottom: 1px solid #eee;
+            align-items: center;
+
+            &:first-child{
+                padding-top: 0;
+            }
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+        }
+    }
+
 `
