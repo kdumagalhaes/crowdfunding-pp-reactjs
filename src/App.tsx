@@ -3,6 +3,7 @@ import { GlobalStyle } from './styles/global'
 import { Header } from './components/Header/index'
 import { ProductInfoSection } from './components/ProductInfoSection';
 import { ProductNumbersSection } from './components/ProductNumbersSection';
+import { ProductAboutSection } from './components/ProductAboutSection';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <ProductInfoSection />
       <ProductNumbersSection />
+      <ProductAboutSection />
       <GlobalStyle />
     </>
   );
