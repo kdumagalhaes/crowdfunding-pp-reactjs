@@ -10,7 +10,7 @@ export const Content = styled.section`
     background: #fff;
     border-radius: 9px;
     border: 1px solid #eee;
-    margin: 115px auto;
+    margin: 115px auto 0 auto;
     padding: 50px;
 
     .flex-container {
