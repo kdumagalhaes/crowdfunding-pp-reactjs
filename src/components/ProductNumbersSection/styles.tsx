@@ -44,4 +44,18 @@ export const Content = styled.section`
         margin-top: 7px;
     }
 
+    .value-range {
+        -webkit-appearance: none;
+        width: 100%;
+        margin-top: 40px;
+        height: 15px;
+        border-radius: 50px;
+        background: var(--moderate-cyan);
+
+        &::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+        }
+    }
+
 `
