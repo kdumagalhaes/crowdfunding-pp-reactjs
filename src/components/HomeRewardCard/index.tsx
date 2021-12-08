@@ -28,8 +28,8 @@ export const HomeRewardCard = ({title, pledge, paragraph, quantityNumber}: HomeR
             <p className="paragraph">
                 {paragraph}
             </p>
-            <div className="flex space-between align-center">
-                <div className="quantity flex align-center">
+            <div className="flex space-between align-hor">
+                <div className="quantity flex align-hor">
                     <span className="quantity-number">{quantityNumber}</span>
                     <span className="quantity-left">left</span>
                 </div>
