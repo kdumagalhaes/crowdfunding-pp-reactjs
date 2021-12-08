@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.div `
+export const Container = styled.div`
     width: 100%;
     border-radius: 7px;
     border: 1px solid #cfcfcfeb;
@@ -32,7 +32,7 @@ export const Container = styled.div `
         align-items: baseline;
     }
 
-    .align-center {
+    .align-hor {
         align-items: center;
     }
 
@@ -47,4 +47,39 @@ export const Container = styled.div `
         color: var(--dark-gray);
     }
 
+    .paragraph {
+        margin-bottom: 30px;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 20px;
+
+        .flex {
+            flex-direction: column;
+        }
+
+        .title {
+            margin-bottom: 10px;
+        }
+
+        .title,
+        .pledge {
+            font-size: 0.9rem;
+        }
+
+        .pledge {
+            margin-bottom: 20px;
+        }
+
+        .align-hor {
+            align-items: flex-start;
+        }
+
+        .quantity {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    }
 `
