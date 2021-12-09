@@ -4,6 +4,7 @@ import { Header } from './components/Header/index'
 import { ProductInfoSection } from './components/ProductInfoSection';
 import { ProductNumbersSection } from './components/ProductNumbersSection';
 import { ProductAboutSection } from './components/ProductAboutSection';
+import { BackOptionsModal } from './components/BackOptionsModal';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ProductInfoSection />
       <ProductNumbersSection />
       <ProductAboutSection />
+      <BackOptionsModal isOpen={true} />
       <GlobalStyle />
     </>
   );
