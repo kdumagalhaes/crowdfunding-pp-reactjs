@@ -18,11 +18,15 @@ export const ProductInfoSection = () => {
                 <h1 className="product-name">Mastercraft Bamboo Monitor Riser</h1>
                 <p className="product-summary">A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
                 <div className="flex-container">
-                    <PrimaryButton text="Back this project" />
-                    <button
-                        style={bookmark ? {} : { background: 'hsl(176, 50%, 97%)', color: 'red' }}
-                        onClick={() => setBookmark(!bookmark)}
-                        className="btn-bookmark"
+                    <PrimaryButton 
+                        height="60px" 
+                        maxWidth="210px" 
+                        padding="20px 40px"
+                        text="Back this project" />
+                    <button 
+                    style={bookmark ? {} : { background: 'hsl(176, 50%, 97%)', color: 'red' }} 
+                    onClick={() => setBookmark(!bookmark)} 
+                    className="btn-bookmark"
                     >
                         {bookmark ?
                             <>

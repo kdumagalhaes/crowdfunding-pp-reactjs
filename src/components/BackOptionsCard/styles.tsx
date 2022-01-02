@@ -4,15 +4,22 @@ import styled from "styled-components";
 export const Card = styled.label`
     display: block;
     width: 100%;
-    padding: 30px;
     margin-bottom: 20px;
     border-radius: 7px;
     cursor: pointer;
     color: var(--dark-gray);
     transition: border 0.3s;
 
-    .content {
-        display: flex;
+    hr {
+        display: block; 
+        height: 1px;
+        border: 0; 
+        border-top: 1px solid #ccc;
+        padding: 0;
+    }
+
+    .container {
+        padding: 30px;
     }
     
     .title-and-pledge {
@@ -83,4 +90,51 @@ export const HorizontalFlex = styled.div`
     display: flex;
     flex-direction: row;
     align-content: center;
+`
+
+export const BottomInfo = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+
+    .pledge-cta {
+        color: var(--dark-gray);
+    }
+
+    .pledge-input-and-button {
+        width: 100%;
+        max-width: 245px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pledge-container {
+        height: 50px;
+        width: 100%;
+        max-width: 105px;
+        border: 1px solid var(--moderate-cyan);
+        border-radius: 100px;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+
+        .currency,
+        .pledge-input {
+            font-size: 0.9rem;
+        }
+
+        .pledge-input {
+            border: none;
+            width: 100%;
+            height: 40px;
+            max-width: 50px;
+            padding-left: 5px;
+            outline: none;
+            font-weight: bold;
+        }
+    }
+
 `

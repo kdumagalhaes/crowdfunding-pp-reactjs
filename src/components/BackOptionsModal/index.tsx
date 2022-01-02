@@ -22,7 +22,6 @@ export const BackOptionsModal = ({ isOpen }: BackOptionsModalProps) => {
                 margin: "150px auto 50px auto",
                 border: "1px solid #eee",
                 padding: "50px",
-                height: "100%",
             },
             overlay: {
                 backgroundColor: 'rgba(0, 0, 0, 0.45)',
