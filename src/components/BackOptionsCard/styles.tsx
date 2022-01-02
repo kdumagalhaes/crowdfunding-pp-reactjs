@@ -60,6 +60,7 @@ export const Card = styled.label`
     .paragraph-card {
         font-size: 0.95rem;
         margin-left: 50px;
+        line-height: 28px;
     }
 
     .checkmark {

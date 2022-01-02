@@ -12,9 +12,12 @@ interface BackOptionsCardProps {
 
 export const BackOptionsCard = ({ title, pledge, paragraph, quantityNumber, isReward }: BackOptionsCardProps) => {
 
-    const [isSelected, setSelected] = useState(false)
+    const [isChecked, setChecked] = useState(false)
 
-    const handleSelection = () => setSelected(!isSelected)
+    const handleSelection = () => {
+        setChecked(true)
+        console.log('checked')
+    }
 
     const cardStyles = {
         selected: {
@@ -26,11 +29,17 @@ export const BackOptionsCard = ({ title, pledge, paragraph, quantityNumber, isRe
     }
 
     return (
-        <Card style={isSelected ? cardStyles.selected : cardStyles.nonSelected}>
+        <Card style={isChecked ? cardStyles.selected : cardStyles.nonSelected}>
             <div className="container">
                 <HorizontalFlex>
                     <div className="checkmark">
-                        <input className="radio-input" type="radio" name="selection" id="selection" onInput={handleSelection} />
+                        <input
+                            className="radio-input"
+                            type="radio"
+                            name="selection"
+                            id="selection"
+                            onChange={handleSelection}
+                        />
                     </div>
                     <div className="title-and-pledge">
                         <h3 className="title-card">{title}</h3>
@@ -57,24 +66,40 @@ export const BackOptionsCard = ({ title, pledge, paragraph, quantityNumber, isRe
                 </HorizontalFlex>
                 <p className="paragraph-card">{paragraph}</p>
             </div>
-                <hr />
-            <BottomInfo>
-                <span className="pledge-cta">
-                    Enter your pledge
-                </span>
-                <div className="pledge-input-and-button">
-                    <div className="pledge-container">
-                        <span className="currency">$</span>
-                        <input className="pledge-input" type="number" name="pledge" id="pledge" defaultValue={pledge} min={pledge}/>
-                    </div>
-                    <PrimaryButton 
-                        height="50px" 
-                        maxWidth="120px" 
-                        text="Continue" 
-                        padding="10px"
-                    />
-                </div>
-            </BottomInfo>
+            {isChecked && isReward ?
+                <>
+                    <hr />
+                    <BottomInfo>
+                        <span className="pledge-cta">
+                            Enter your pledge
+                        </span>
+                        <div className="pledge-input-and-button">
+                            <div className="pledge-container">
+                                <span className="currency">$</span>
+                                <input
+                                    className="pledge-input"
+                                    type="number"
+                                    name="pledge"
+                                    id="pledge"
+                                    defaultValue={pledge}
+                                    min={pledge}
+                                    autoFocus
+                                />
+                            </div>
+                            <PrimaryButton
+                                height="50px"
+                                maxWidth="120px"
+                                text="Continue"
+                                padding="10px"
+                            />
+                        </div>
+                    </BottomInfo>
+                </>
+                :
+                <>
+                </>
+            }
+
         </Card>
     )
 }
