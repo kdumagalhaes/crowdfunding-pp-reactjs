@@ -19,14 +19,14 @@ export const BackOptionsModal = ({ isOpen }: BackOptionsModalProps) => {
             content: {
                 borderRadius: "7px",
                 maxWidth: "730px",
-                margin: "150px auto 0 auto",
+                margin: "150px auto 50px auto",
                 border: "1px solid #eee",
                 padding: "50px",
-                position: "absolute",
-                height: "auto",
+                height: "100%",
             },
             overlay: {
-                backgroundColor: 'rgba(43, 43, 43, 0.75)'
+                backgroundColor: 'rgba(0, 0, 0, 0.45)',
+                zIndex: "4",
             }
         }} isOpen={isModal}>
             <Content>
@@ -36,13 +36,15 @@ export const BackOptionsModal = ({ isOpen }: BackOptionsModalProps) => {
                 <h2 className="title-modal">Back this project</h2>
                 <p className="paragraph-modal">Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
                 <BackOptionsCard
+                    isReward={false}
                     title="Pledge with no reward"
                     paragraph="Choose to support us without a reward if you simply believe 
                     in our project. As a backer, you will be signed up to receive product 
                     updates via email."
-
+                    
                 />
                 <BackOptionsCard 
+                    isReward={true}
                     title="Bamboo Stand"
                     pledge={25}
                     quantityNumber={101}

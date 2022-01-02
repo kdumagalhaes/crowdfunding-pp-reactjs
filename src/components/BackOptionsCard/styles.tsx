@@ -1,34 +1,42 @@
 import styled from "styled-components";
 
+
 export const Card = styled.label`
     display: block;
     width: 100%;
     padding: 30px;
     margin-bottom: 20px;
     border-radius: 7px;
-    border: 1px solid #eee;
     cursor: pointer;
     color: var(--dark-gray);
     transition: border 0.3s;
+
+    .content {
+        display: flex;
+    }
     
     .title-and-pledge {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        margin: 0 0 30px 35px;
+        margin-bottom: 25px;
+        width: 100%;
+        max-width: 475px;
     }
 
-    .paragraph-card {
-        margin-bottom: 10px;
+    .title-card {
+        margin-left: 25px;
     }
 
-    .title-card, 
-    .radio-input {
+    .title-card {
         margin-right: 20px;
     }
 
     .pledge-card {
         color: var(--moderate-cyan);
+    }
+
+    .quantity {
+        justify-self: end;
     }
 
     .quantity-card {
@@ -43,7 +51,8 @@ export const Card = styled.label`
     }
 
     .paragraph-card {
-        margin-left: 34px;
+        font-size: 0.95rem;
+        margin-left: 50px;
     }
 
     .checkmark {
@@ -51,8 +60,7 @@ export const Card = styled.label`
         height: 25px;
         background: transparent;
         border: 1px solid #c5c5c5;
-        cursor: pointer;
-        border-radius: 50px;
+        border-radius: 100px;
     }
 
     .radio-input[type="radio"] {
@@ -71,8 +79,8 @@ export const Card = styled.label`
 `
 
 export const HorizontalFlex = styled.div`
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;
 `
