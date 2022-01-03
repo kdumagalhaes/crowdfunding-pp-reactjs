@@ -19,14 +19,6 @@ export const BackOptionsCard = ({ title, pledge, paragraph, quantityNumber, isRe
         console.log('checked')
     }
 
-    let opacity: number = 1
-
-    if (quantityNumber === 0) {
-        opacity = 0.5;
-    } else {
-        opacity = 1;
-    }
-
     const cardStyles = {
         selected: {
             outline: '2px solid hsl(176, 50%, 47%)'
