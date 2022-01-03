@@ -3,10 +3,6 @@ import styled from 'styled-components'
 import desktopImgBg from '../../assets/img/image-hero-desktop.jpg'
 import mobileImgBg from '../../assets/img/image-hero-mobile.jpg'
 
-interface NavigationProps {
-    display: string
-}
-
 
 export const Container = styled.header`
     width: 100%;
