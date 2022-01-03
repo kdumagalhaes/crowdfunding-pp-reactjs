@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Container, Content, Navigation } from './styles'
 import { useState } from 'react'
 
