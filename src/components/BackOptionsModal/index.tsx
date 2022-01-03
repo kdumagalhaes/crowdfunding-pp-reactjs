@@ -59,6 +59,15 @@ export const BackOptionsModal = ({ isOpen }: BackOptionsModalProps) => {
                     paragraph="You get a Black Special Edition computer stand and a personal thank you. 
                     You’ll be added to our Backer member list. Shipping is included."
                 />
+                <BackOptionsCard
+                    isReward={true}
+                    title="Mahogany Special Edition"
+                    pledge={200}
+                    quantityNumber={0}
+                    paragraph="You get two Special Edition Mahogany stands, a Backer T-Shirt, 
+                    and a personal thank you. You’ll be added to our Backer member list. 
+                    Shipping is included."
+                />
             </Content>
         </Modal>
     )
