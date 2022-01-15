@@ -31,7 +31,7 @@ export const ProductInfoSection = () => {
                             </>
                             :
                             <>
-                                <img src={bookmarkIconActive} alt="bookmark icon" />
+                                <img src={bookmarkIconActive} alt="bookmark icon active" />
                                 <p style={{ color: 'var(--dark-cyan)' }}>Bookmarked</p>
                             </>
                         }
