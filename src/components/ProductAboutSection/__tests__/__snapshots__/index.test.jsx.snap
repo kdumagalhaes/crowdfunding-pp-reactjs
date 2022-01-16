@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductAboutSection initial component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkPtRN liEUCz"
+  >
+    <section
+      class="sc-hKwDye dNOEIR"
+    >
+      <h3
+        class="title"
+      >
+        About this project
+      </h3>
+      <p
+        class="paragraph"
+      >
+        The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve your posture and make you more comfortable while at work, helping you stay focused on the task at hand.
+      </p>
+      <p
+        class="paragraph"
+      >
+        Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer to allow notepads, pens, and USB sticks to be stored under the stand.
+      </p>
+      <div
+        class="sc-gsDKAQ eSZVdg"
+        style="opacity: 1;"
+      >
+        <div
+          class="flex align-bottom space-between"
+        >
+          <h3
+            class="title"
+          >
+            Bamboo Stand
+          </h3>
+          <span
+            class="pledge"
+          >
+            Pledge $25 or more
+          </span>
+        </div>
+        <p
+          class="paragraph"
+        >
+          You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you’ll be added to a special Backer member list.
+        </p>
+        <div
+          class="flex space-between align-hor"
+        >
+          <div
+            class="quantity flex align-hor"
+          >
+            <span
+              class="quantity-number"
+            >
+              101
+            </span>
+            <span
+              class="quantity-left"
+            >
+              left
+            </span>
+          </div>
+          <button
+            class="sc-bdvvtL kvGkJb"
+          >
+            Select Reward
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-gsDKAQ eSZVdg"
+        style="opacity: 1;"
+      >
+        <div
+          class="flex align-bottom space-between"
+        >
+          <h3
+            class="title"
+          >
+            Black Edition Stand
+          </h3>
+          <span
+            class="pledge"
+          >
+            Pledge $75 or more
+          </span>
+        </div>
+        <p
+          class="paragraph"
+        >
+          You get a Black Special Edition computer stand  and a personal thank you. You’ll be added to our Backer  member list. Shipping is included.
+        </p>
+        <div
+          class="flex space-between align-hor"
+        >
+          <div
+            class="quantity flex align-hor"
+          >
+            <span
+              class="quantity-number"
+            >
+              64
+            </span>
+            <span
+              class="quantity-left"
+            >
+              left
+            </span>
+          </div>
+          <button
+            class="sc-bdvvtL kvGkJb"
+          >
+            Select Reward
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-gsDKAQ eSZVdg"
+        style="opacity: 0.5;"
+      >
+        <div
+          class="flex align-bottom space-between"
+        >
+          <h3
+            class="title"
+          >
+            Mahogany Special Edition
+          </h3>
+          <span
+            class="pledge"
+          >
+            Pledge $200 or more
+          </span>
+        </div>
+        <p
+          class="paragraph"
+        >
+          You get two Special Edition Mahogany stands,  a Backer T-Shirt, and a personal thank you. You’ll be added  to our Backer member list. Shipping is included.
+        </p>
+        <div
+          class="flex space-between align-hor"
+        >
+          <div
+            class="quantity flex align-hor"
+          >
+            <span
+              class="quantity-number"
+            >
+              0
+            </span>
+            <span
+              class="quantity-left"
+            >
+              left
+            </span>
+          </div>
+          <button
+            class="sc-bdvvtL kvGkJb"
+          >
+            Select Reward
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+</DocumentFragment>
+`;
