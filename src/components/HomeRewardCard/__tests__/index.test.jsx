@@ -1,9 +1,9 @@
 import {render} from "@testing-library/react"
-import {Header} from ".."
+import { HomeRewardCard } from ".." 
 
-describe("Header", () => {
+describe("HomeRewardCard", () => {
     it("initial component should match snapshot", () => {
-        const {asFragment} = render(<Header />)
+        const {asFragment} = render(<HomeRewardCard />)
         expect(asFragment()).toMatchSnapshot()
     })
 })

@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeRewardCard initial component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gsDKAQ eSZVdg"
+    style="opacity: 1;"
+  >
+    <div
+      class="flex align-bottom space-between"
+    >
+      <h3
+        class="title"
+      />
+      <span
+        class="pledge"
+      >
+        Pledge $ or more
+      </span>
+    </div>
+    <p
+      class="paragraph"
+    />
+    <div
+      class="flex space-between align-hor"
+    >
+      <div
+        class="quantity flex align-hor"
+      >
+        <span
+          class="quantity-number"
+        />
+        <span
+          class="quantity-left"
+        >
+          left
+        </span>
+      </div>
+      <button
+        class="sc-bdvvtL kvGkJb"
+      >
+        Select Reward
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`HomeRewardCard renders like expected 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gsDKAQ eSZVdg"
+    style="opacity: 1;"
+  >
+    <div
+      class="flex align-bottom space-between"
+    >
+      <h3
+        class="title"
+      />
+      <span
+        class="pledge"
+      >
+        Pledge $ or more
+      </span>
+    </div>
+    <p
+      class="paragraph"
+    />
+    <div
+      class="flex space-between align-hor"
+    >
+      <div
+        class="quantity flex align-hor"
+      >
+        <span
+          class="quantity-number"
+        />
+        <span
+          class="quantity-left"
+        >
+          left
+        </span>
+      </div>
+      <button
+        class="sc-bdvvtL kvGkJb"
+      >
+        Select Reward
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
