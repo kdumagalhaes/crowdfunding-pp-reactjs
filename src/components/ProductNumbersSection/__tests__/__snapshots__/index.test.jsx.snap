@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductNumbersSection initial component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdvvtL jnOboy"
+  >
+    <section
+      class="sc-gsDKAQ esfoTq"
+    >
+      <div
+        class="flex-container"
+      >
+        <div
+          class="number"
+        >
+          <span
+            class="number-value"
+          >
+            $89,914
+          </span>
+          <span
+            class="number-backed"
+          >
+            of $100,000 backed
+          </span>
+        </div>
+        <div
+          class="number"
+        >
+          <span
+            class="number-value"
+          >
+            5,007
+          </span>
+          <span
+            class="number-backed"
+          >
+            total backers
+          </span>
+        </div>
+        <div
+          class="number"
+        >
+          <span
+            class="number-value"
+          >
+            56
+          </span>
+          <span
+            class="number-backed"
+          >
+            days left
+          </span>
+        </div>
+      </div>
+      <input
+        class="value-range"
+        max="100000"
+        min="0"
+        type="range"
+        value="89914"
+      />
+    </section>
+  </div>
+</DocumentFragment>
+`;
