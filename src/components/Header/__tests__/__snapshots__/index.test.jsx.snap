@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header initial component should match snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="sc-bdvvtL gzsorK"
+  >
+    <div
+      class="gradient"
+    />
+    <div
+      class="sc-gsDKAQ hwssex"
+    >
+      <a
+        href="#"
+      >
+        <h1
+          class="seo-h1"
+        >
+          Crowdfunding • This is just for SEO best practices =)
+        </h1>
+        <img
+          alt="crowdfund"
+          src="logo.svg"
+        />
+      </a>
+      <nav
+        class="sc-dkPtRN kyRLwV"
+      >
+        <button
+          class="hamburger-menu"
+        >
+          <img
+            alt="open menu"
+            src="icon-hamburger.svg"
+          />
+        </button>
+        <ul>
+          <li>
+            <a
+              href="#about"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="#discover"
+            >
+              Discover
+            </a>
+          </li>
+          <li>
+            <a
+              href="#get-started"
+            >
+              Get Started
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</DocumentFragment>
+`;
