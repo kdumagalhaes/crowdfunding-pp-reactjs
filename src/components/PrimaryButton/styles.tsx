@@ -1,10 +1,19 @@
 import styled from 'styled-components'
 
-export const Button = styled.button `
+interface Props {
+    height: string
+    maxWidth: string
+    padding: string
+}
+
+export const Button = styled.button<Props> `
     background: var(--moderate-cyan);
+    width: 100%;
+    max-width: ${({maxWidth}) => maxWidth};
+    height: ${({height}) => height};
     border: none;
     border-radius: 50px;
-    padding: 20px 40px;
+    padding: ${({padding}) => padding};
     color: #fff;
     font-weight: 500;
     font-size: 1rem;

@@ -33,7 +33,12 @@ export const HomeRewardCard = ({title, pledge, paragraph, quantityNumber}: HomeR
                     <span className="quantity-number">{quantityNumber}</span>
                     <span className="quantity-left">left</span>
                 </div>
-                <PrimaryButton text="Select Reward" />
+                <PrimaryButton 
+                    height="60px" 
+                    maxWidth="200px" 
+                    text="Select Reward" 
+                    padding="20px 40px"
+                />
             </div>
         </Container>
     )
