@@ -3,7 +3,7 @@
 exports[`PrimaryButton initial component should match snapshot 1`] = `
 <DocumentFragment>
   <button
-    class="sc-bdvvtL kvGkJb"
+    class="sc-bdvvtL cBMbSL"
   />
 </DocumentFragment>
 `;

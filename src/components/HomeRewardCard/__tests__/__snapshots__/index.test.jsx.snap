@@ -37,7 +37,8 @@ exports[`HomeRewardCard initial component should match snapshot 1`] = `
         </span>
       </div>
       <button
-        class="sc-bdvvtL kvGkJb"
+        class="sc-bdvvtL gGqYp"
+        height="60px"
       >
         Select Reward
       </button>

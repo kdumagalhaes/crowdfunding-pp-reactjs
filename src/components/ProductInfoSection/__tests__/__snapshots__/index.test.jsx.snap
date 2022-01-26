@@ -27,7 +27,8 @@ exports[`ProductInfoSection initial component should match snapshot 1`] = `
         class="flex-container"
       >
         <button
-          class="sc-dkPtRN bqcme"
+          class="sc-dkPtRN edUmWF"
+          height="60px"
         >
           Back this project
         </button>
