@@ -56,7 +56,7 @@ button {
         border: none;
     }
 
-    /* ul {
+    ul {
         li {
             list-style: none;
             a {
@@ -67,11 +67,9 @@ button {
                 font-weight: 500;
                 padding: 30px 0 30px 20px;
                 border-bottom: 1px solid #eee;
-
-
             }
         }
-    } */
+    }
 }
 
 .react-modal-overlay {
