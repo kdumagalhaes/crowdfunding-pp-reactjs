@@ -44,20 +44,19 @@ button {
     cursor: pointer;
 }
 
+
 .react-modal-content {
     width: 100%;
     max-width: 85%;
     margin: 100px auto;
     background: #fff;
-    position: relative;
     border-radius: 0.6rem;
-    z-index: 2;
 
     .last-anchor {
         border: none;
     }
 
-    ul {
+    /* ul {
         li {
             list-style: none;
             a {
@@ -72,16 +71,21 @@ button {
 
             }
         }
-    }
+    } */
 }
 
 .react-modal-overlay {
     background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,0.7));
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.ReactModal__Html--open,
+.ReactModal__Body--open {
+  overflow: hidden;
 }
 
 `
