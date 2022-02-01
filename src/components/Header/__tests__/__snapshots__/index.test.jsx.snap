@@ -3,13 +3,13 @@
 exports[`Header initial component should match snapshot 1`] = `
 <DocumentFragment>
   <header
-    class="sc-bdvvtL gzsorK"
+    class="sc-bdvvtL WzhhC"
   >
     <div
       class="gradient"
     />
     <div
-      class="sc-gsDKAQ hwssex"
+      class="sc-gsDKAQ ilTCZR"
     >
       <a
         href="#"
@@ -25,7 +25,7 @@ exports[`Header initial component should match snapshot 1`] = `
         />
       </a>
       <nav
-        class="sc-dkPtRN kyRLwV"
+        class="sc-dkPtRN jSjCnt"
       >
         <button
           class="hamburger-menu"
