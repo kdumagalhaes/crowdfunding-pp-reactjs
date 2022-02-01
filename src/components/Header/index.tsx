@@ -14,7 +14,7 @@ export const Header = () => {
 
   return (
     <Container>
-      <div className="gradient"></div>
+      <div className="gradient" />
       <Modal
         className="react-modal-content"
         overlayClassName="react-modal-overlay"

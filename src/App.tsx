@@ -13,7 +13,7 @@ function App() {
       <ProductInfoSection />
       <ProductNumbersSection />
       <ProductAboutSection />
-      <BackOptionsModal isOpen={false} />
+      <BackOptionsModal />
       <GlobalStyle />
     </>
   );
