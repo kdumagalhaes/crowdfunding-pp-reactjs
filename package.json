@@ -25,8 +25,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
-    "eslint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet",
-    "lint": "yarn format & eslint",
+    "eslint-check": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint": "yarn format && yarn eslint-check",
+    "pre-push": "git diff HEAD --quiet && yarn lint",
     "prepare": "husky install"
   },
   "eslintConfig": {
