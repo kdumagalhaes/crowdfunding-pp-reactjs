@@ -14,7 +14,7 @@ export const HomeRewardCard = ({
   pledge,
   paragraph,
   quantityNumber,
-}: HomeRewardCardProps) => {
+}: HomeRewardCardProps): JSX.Element => {
   let opacity = 1;
 
   if (quantityNumber === 0) {

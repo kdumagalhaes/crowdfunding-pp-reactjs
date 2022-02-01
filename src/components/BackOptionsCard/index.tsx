@@ -16,7 +16,7 @@ export const BackOptionsCard = ({
   paragraph,
   quantityNumber,
   isReward,
-}: BackOptionsCardProps) => {
+}: BackOptionsCardProps): JSX.Element => {
   const [isChecked, setChecked] = useState(false);
 
   const handleSelection = () => {

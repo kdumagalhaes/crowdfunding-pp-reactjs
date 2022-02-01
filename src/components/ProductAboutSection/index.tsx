@@ -1,7 +1,7 @@
 import { HomeRewardCard } from "../HomeRewardCard";
 import { Container, Content } from "./styles";
 
-export const ProductAboutSection = () => {
+export const ProductAboutSection = (): JSX.Element => {
   return (
     <Container>
       <Content>

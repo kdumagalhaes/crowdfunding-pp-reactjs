@@ -12,7 +12,7 @@ export const PrimaryButton = ({
   height,
   maxWidth,
   padding,
-}: PrimaryButtonProps) => {
+}: PrimaryButtonProps): JSX.Element => {
   return (
     <Button height={height} maxWidth={maxWidth} padding={padding}>
       {text}

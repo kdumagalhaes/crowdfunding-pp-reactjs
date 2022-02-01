@@ -6,7 +6,7 @@ import { ProductNumbersSection } from "./components/ProductNumbersSection";
 import { ProductAboutSection } from "./components/ProductAboutSection";
 import { BackOptionsModal } from "./components/BackOptionsModal";
 
-function App() {
+function App(): JSX.Element {
   return (
     <>
       <Header />

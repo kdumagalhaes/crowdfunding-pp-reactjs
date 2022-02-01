@@ -8,7 +8,7 @@ import logoImg from "../../assets/img/logo.svg";
 import hamburgerMenuIcon from "../../assets/img/icon-hamburger.svg";
 import closeMenuIcon from "../../assets/img/icon-close-menu.svg";
 
-export const Header = () => {
+export const Header = (): JSX.Element => {
   const [modal, setModal] = useState(false);
   const [display, setDisplay] = useState(true);
 

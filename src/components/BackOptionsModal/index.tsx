@@ -6,7 +6,7 @@ import closeModalIcon from "../../assets/img/icon-close-modal.svg";
 import { useState } from "react";
 import { BackOptionsCard } from "../BackOptionsCard";
 
-export const BackOptionsModal = () => {
+export const BackOptionsModal = (): JSX.Element => {
   const [isModal, setModal] = useState(true);
 
   return (

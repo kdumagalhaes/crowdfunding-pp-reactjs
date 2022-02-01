@@ -7,7 +7,7 @@ import bookmarkIconActive from "../../assets/img/icon-bookmark-active.svg";
 import { PrimaryButton } from "../PrimaryButton";
 import { useState } from "react";
 
-export const ProductInfoSection = () => {
+export const ProductInfoSection = (): JSX.Element => {
   const [bookmark, setBookmark] = useState(true);
 
   return (

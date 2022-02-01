@@ -1,7 +1,7 @@
 import React, { useState, ChangeEventHandler } from "react";
 import { Container, Content } from "./styles";
 
-export const ProductNumbersSection = () => {
+export const ProductNumbersSection = (): JSX.Element => {
   const [range, setRange] = useState("89914");
 
   const handleChange: ChangeEventHandler<HTMLInputElement> = (event) => {
