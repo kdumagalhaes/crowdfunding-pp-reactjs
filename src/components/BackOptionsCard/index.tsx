@@ -16,7 +16,7 @@ export const BackOptionsCard = ({
   paragraph,
   quantityNumber,
   isReward,
-}: BackOptionsCardProps) => {
+}: BackOptionsCardProps): JSX.Element => {
   const [isChecked, setChecked] = useState(false);
 
   const handleSelection = () => {
@@ -51,7 +51,7 @@ export const BackOptionsCard = ({
             {isReward ? (
               <p className="pledge-card">Pledge ${pledge} or more</p>
             ) : (
-              <p className="pledge-card"></p>
+              <p className="pledge-card" />
             )}
           </div>
           {isReward ? (
@@ -61,8 +61,8 @@ export const BackOptionsCard = ({
             </div>
           ) : (
             <div className="quantity">
-              <span className="quantity-card"></span>
-              <span className="quantity-left"></span>
+              <span className="quantity-card" />
+              <span className="quantity-left" />
             </div>
           )}
         </HorizontalFlex>

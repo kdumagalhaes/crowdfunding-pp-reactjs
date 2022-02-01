@@ -13,7 +13,7 @@ export const Card = styled.label`
     margin-bottom: 0;
   }
 
-  hr {
+hr {
     display: block;
     height: 1px;
     border: 0;

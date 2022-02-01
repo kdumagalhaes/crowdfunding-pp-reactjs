@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 :root {
@@ -81,9 +81,9 @@ button {
     right: 0;
 }
 
+`;
 .ReactModal__Html--open,
 .ReactModal__Body--open {
   overflow: hidden;
 }
 
-`
