@@ -9,7 +9,11 @@ export const Card = styled.label`
   color: var(--dark-gray);
   transition: border 0.3s;
 
-  hr {
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+hr {
     display: block;
     height: 1px;
     border: 0;

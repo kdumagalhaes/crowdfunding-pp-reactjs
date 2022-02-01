@@ -83,6 +83,7 @@ export const BackOptionsCard = ({
                   id="pledge"
                   defaultValue={pledge}
                   min={pledge}
+                  autoFocus
                 />
               </div>
               <PrimaryButton

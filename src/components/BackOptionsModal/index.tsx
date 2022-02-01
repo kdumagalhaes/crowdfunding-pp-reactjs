@@ -6,7 +6,11 @@ import closeModalIcon from "../../assets/img/icon-close-modal.svg";
 import { useState } from "react";
 import { BackOptionsCard } from "../BackOptionsCard";
 
-export const BackOptionsModal = (): JSX.Element => {
+interface BackOptionsModalProps {
+  isOpen: boolean;
+}
+
+export const BackOptionsModal = ({ isOpen }: BackOptionsModalProps) => {
   const [isModal, setModal] = useState(true);
 
   return (
@@ -15,13 +19,18 @@ export const BackOptionsModal = (): JSX.Element => {
         content: {
           borderRadius: "7px",
           maxWidth: "730px",
-          margin: "150px auto 50px auto",
+          margin: "150px auto 100px auto",
           border: "1px solid #eee",
           padding: "50px",
+          height: "fit-content",
+          position: "relative",
+          inset: "0",
         },
         overlay: {
           backgroundColor: "rgba(0, 0, 0, 0.45)",
           zIndex: "4",
+          overflow: "auto",
+          height: "auto",
         },
       }}
       isOpen={isModal}
