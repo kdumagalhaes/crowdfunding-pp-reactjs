@@ -15,7 +15,7 @@ export const HomeRewardCard = ({
   paragraph,
   quantityNumber,
 }: HomeRewardCardProps) => {
-  let opacity: number = 1;
+  let opacity = 1;
 
   if (quantityNumber === 0) {
     opacity = 0.5;
